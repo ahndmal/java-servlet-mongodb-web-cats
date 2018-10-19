@@ -1,0 +1,56 @@
+<%@ page import="com.beastiehut.cats.Cat" %>
+<%@ page import="com.beastiehut.mongo.DBConnector" %>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<html>
+<head>
+    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <title>Welcome</title>
+    <style>
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            background-color: #286090;
+        }
+
+        .footer .container {
+            width: auto;
+            max-width: 680px;
+            padding: 0 15px;
+        }
+
+        .welcome_body {
+            margin: 30px;
+            margin-left: 60px;
+            color: black;
+        }
+        .custom_body {
+            margin: 30px;
+            margin-left: 60px;
+            color: black;
+        }
+
+        .all_cats_body {
+            margin: 30px;
+            margin-left: 60px;
+            color: black;
+        }
+        .custom_table {
+            color : black;
+        }
+        .custom_table th {
+            color : #286090;
+        }
+        .create-error-message {
+            text-align: center;
+            color: red;
+        }
+        .table th {
+            color: #286090;
+        }
+
+    </style>
+</head>

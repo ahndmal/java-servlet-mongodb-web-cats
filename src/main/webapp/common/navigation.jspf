@@ -1,0 +1,17 @@
+<nav role="navigation" class="navbar navbar-default" color="#286090">
+
+    <div class="">
+        <a href="${pageContext.request.contextPath}/welcome.do" class="navbar-brand">Home</a>
+    </div>
+    <div class="navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="${pageContext.request.contextPath}/html_pages/cat.html">Cat</a></li>
+            <li><a href="${pageContext.request.contextPath}/find-cat.do">Find Cat</a></li>
+            <li><a href="${pageContext.request.contextPath}/create-cat.do">Create Cat</a></li>
+            <li><a href="http://www.example.com">BeastieHut</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="${pageContext.request.contextPath}/login.do">Logout</a></li>
+        </ul>
+    </div>
+</nav>
