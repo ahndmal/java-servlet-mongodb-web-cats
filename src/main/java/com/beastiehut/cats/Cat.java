@@ -6,6 +6,7 @@ public class Cat {
     String color;
     int age;
     int id;
+    String imagePath;
 
     public int getId() {
         return this.id;

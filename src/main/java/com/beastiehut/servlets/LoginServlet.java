@@ -1,6 +1,6 @@
 package com.beastiehut.servlets;
 
-import com.beastiehut.services.LoginService;
+//import com.beastiehut.services.LoginService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,7 +13,7 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
-    private LoginService service = new LoginService();
+//    private LoginService service = new LoginService();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)   throws IOException, ServletException {
@@ -27,19 +27,21 @@ public class LoginServlet extends HttpServlet {
         String name = request.getParameter("name");
         String password = request.getParameter("password");
 
-        boolean isValidUser = service.validateUser(name, password);
+//        boolean isValidUser = service.validateUser(name, password);
 
-        if (isValidUser) {
+//        if (isValidUser) {
+//
+//            request.getSession().setAttribute("name", name);
+//            request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
+////            response.sendRedirect("/WEB-INF/views/welcome.jsp");
+//
+//        } else {
+//
+//            request.setAttribute("errorMessage", "Invalid Credentials!!");
+//            request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
 
-            request.getSession().setAttribute("name", name);
-            request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
-//            response.sendRedirect("/WEB-INF/views/welcome.jsp");
-
-        } else {
-
-            request.setAttribute("errorMessage", "Invalid Credentials!!");
-            request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
+        request.getSession().setAttribute("name", name);
+        request.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(request, response);
         }
     }
 
-}
