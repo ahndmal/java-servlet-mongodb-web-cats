@@ -1,9 +1,9 @@
-package com.beastiehut.servlets;
+package com.anma.servlets;
 
-import com.beastiehut.mongo.DBConnector;
-import com.beastiehut.mongo.SaveImage;
-import com.beastiehut.services.CatCreationService;
-import com.beastiehut.services.ImageFromCatSizeService;
+import com.anma.mongo.DBConnector;
+import com.anma.mongo.SaveImage;
+import com.anma.services.CatCreationService;
+import com.anma.services.ImageFromCatSizeService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

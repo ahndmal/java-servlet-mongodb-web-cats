@@ -1,4 +1,4 @@
-package com.beastiehut.mongo;
+package com.anma.mongo;
 
 import com.mongodb.gridfs.GridFS;
 

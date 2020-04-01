@@ -1,9 +1,5 @@
-package com.beastiehut.mongo;
+package com.anma.mongo;
 
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
 import com.mongodb.gridfs.GridFS;
 import com.mongodb.gridfs.GridFSDBFile;
 

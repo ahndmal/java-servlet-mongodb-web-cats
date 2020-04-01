@@ -1,4 +1,4 @@
-package com.beastiehut.cats;
+package com.anma.cats;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;

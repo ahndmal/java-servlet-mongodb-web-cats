@@ -1,4 +1,4 @@
-package com.beastiehut.cats;
+package com.anma.cats;
 
 public class Cat {
 

@@ -1,4 +1,4 @@
-package com.beastiehut.mongo;
+package com.anma.mongo;
 
 import java.io.File;
 import java.io.IOException;

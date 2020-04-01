@@ -1,4 +1,4 @@
-package com.beastiehut.services;
+package com.anma.services;
 
 public class CatCreationService {
 

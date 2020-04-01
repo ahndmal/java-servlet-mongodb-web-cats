@@ -1,4 +1,4 @@
-package com.beastiehut.services;
+package com.anma.services;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package com.beastiehut.servlets;
+package com.anma.servlets;
 
-import com.beastiehut.mongo.DBConnector;
+import com.anma.mongo.DBConnector;
 import com.mongodb.DBObject;
 
 import javax.servlet.ServletException;

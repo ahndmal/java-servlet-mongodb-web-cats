@@ -1,6 +1,5 @@
-package com.beastiehut.mongo;
+package com.anma.mongo;
 
-import com.beastiehut.services.ImageFromCatSizeService;
 import com.mongodb.*;
 
 import java.net.UnknownHostException;
